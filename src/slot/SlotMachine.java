@@ -7,7 +7,7 @@ public class SlotMachine {
 	public Human user;
 	public boolean able_game;
 	public SlotMachine() {
-		this.able_game = false;
+		this.able_game = true;
 	}
 	
 	public int startRandom(){
@@ -15,7 +15,7 @@ public class SlotMachine {
 		return random;
 	}
 
-	public void check() {
-		
+	public boolean check() {
+		return able_game;
 	}
 }
