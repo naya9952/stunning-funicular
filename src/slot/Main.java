@@ -20,8 +20,10 @@ public class Main {
 		System.out.println("박성민 : 슬롯머신의 자리가 비여있는지 알아봅니다.");
 		ParkSeongMin.check();
 		
-		System.out.println("슬롯머신 : 규칙을 알려줍니다.");
-		System.out.println("박성민 : 슬롯머신에 돈을 투입합니다.");
+		System.out.println("박성민 : 슬롯머신의 규칙을 물어봅니다");
+		ParkSeongMin.ask_rule();
+		
+		ParkSeongMin.insert_money();
 		System.out.println("슬롯머신 : 배팅을 시작합니다.");
 		System.out.println("슬롯머신 : 배팅 금액의 X배 되었습니다.");
 		System.out.println("박성민 : 금액을 출금합니다.");		
